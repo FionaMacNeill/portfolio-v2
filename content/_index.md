@@ -39,56 +39,56 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: fiona
   - block: skills
     content:
       title: Skills
       text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
+      username: fiona
     design:
       columns: '1'
-  - block: experience
-    content:
-      title: Experience
+#  - block: experience
+#    content:
+#      title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+#      date_format: Jan 2006
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
+#      items:
+#        - title: CEO
+#          company: GenCoin
+#          company_url: ''
+#          company_logo: org-gc
+#          location: California
+#          date_start: '2021-01-01'
+#          date_end: ''
+#          description: |2-
+#              Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
+#              * Analysing
+#              * Modelling
+#              * Deploying
+#        - title: Professor of Semiconductor Physics
+#          company: University X
+#          company_url: ''
+#          company_logo: org-x
+#          location: California
+#          date_start: '2016-01-01'
+#          date_end: '2020-12-31'
+#          description: Taught electronic engineering and researched semiconductor physics.
+#    design:
+#      columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Certifica&shy;tions'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -98,33 +98,33 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: ''
+          date_end: '2024-09-01'
+          date_start: '2021-09-01'
+          description: 'Peer-assessed accreditation for professionals working in learning technology. Based on a portfolio of practice-based evidence - valid for three years from the date of award. Credential ID 210979'
+          icon: alt
+          organization: ALT
+          organization_url: https://www.alt.ac.uk/certified-membership
+          title: Certified Member of Association for Learning Technology (CMALT)
+          url: 'https://fionamacneill.co.uk/cmalt/2021/'
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
+          date_start: '2020-10-01'
+          description: 'Higher Education teaching accreditation based on an assessed portfolio of practice-based evidence. Credential ID PR202347'
+          icon: advancehe
+          organization: AdvanceHE
+          organization_url: https://www.datacamp.com
+          title: 'Fellow of Higher Education Academy (FHEA - D2)'
+          url: '' 
+        - certificate_url: https://courses.edx.org/certificates/6270bd992d32458f80cfb882d3fd391d
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
+          date_start: '2021-08-26'
+          description: A course of study offered by W3Cx, an online learning initiative of World Wide Web Consortium.
           icon: edx
           organization: edX
           organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          title: WAI0.1x Introduction to Web Accessibility
+          url: https://www.edx.org/learn/web-accessibility/the-world-wide-web-consortium-w3c-introduction-to-web-accessibility
     design:
       columns: '2'
   - block: collection
@@ -134,7 +134,7 @@ sections:
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 3
       # Filter on criteria
       filters:
         folders:
@@ -171,10 +171,11 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Design
+          tag: Design
+        - name: Research
+          tag: Research
+ 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

@@ -1,0 +1,265 @@
+/* Custom CSS by F.MacNeill */
+
+/* Links and navigation styles */
+
+a {
+    color: #1B688C;
+}
+
+a:hover, a:focus {
+    color: #9D2535;
+    text-decoration: underline;
+}
+
+a#skipnav {
+    position: absolute;
+    top: -1000em;
+    left: -1000em;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+#skipnav:focus, #skipnav:active {
+  position: relative;
+  top: 0;
+  left: 10px;
+  height: 1.8em;
+  width: 10em;
+  margin-bottom: 5px;
+  border-radius: 0 0 5px 5px;
+  background: #611620;
+  color: #fff;
+  text-align: center;
+}
+
+/*ID added to define h1 style in header*/
+
+#navbar-header {
+    color: #000;
+    margin-top: -5px;
+}
+
+.navbar {
+    font-size: 1rem;
+}
+
+.navbar-brand, .navbar-brand:hover {
+    padding: 5px 10px;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    font-weight: normal !important;
+    color: #611620 !important;
+    text-decoration: underline;
+}
+
+#navbar-main .main-menu-item ul li .nav-link {
+    color: #34495e;
+    margin: .2rem;
+}
+
+.js-search.nav-link {
+    color: #1B688C !important;
+  }
+
+/* Typography styles */
+
+/* h2 style class - replacing the h1 class */
+
+.mb-0, .my-0 {
+    font-size: 1.75em;
+}
+
+/* h3 project title class for cards */
+
+.project-title {
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Line 75 of about.html custom heading style for h2 */
+
+#about-heading {
+    font-size: 1.75em;
+} 
+
+/* Accomplishments cards */ 
+
+.card-subtitle {
+    font-size: 1rem;
+}
+
+/* Controlling the About page */
+
+.portrait-title h3 {
+    color: #393939;
+    text-decoration: none;
+}
+
+#profile {
+    padding: 0px 10px;
+}
+
+#profile .network-icon {
+    margin-top: 20px;
+}
+
+.article-style {
+    line-height: 2;
+    overflow: visible;
+}
+
+.article-metadata {
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.home-section-bg {
+    overflow: visible;
+}
+
+.card .card-text p {
+    color: rgb(87, 87, 87);
+}
+
+.author-card .card-subtitle {
+    color: rgb(77, 76, 76);
+} 
+
+/* Recent posts theme */ 
+.dark a:not(.btn):hover {
+    color: #FFF;
+  } 
+
+.section-subheading:hover { 
+    text-decoration:underline;
+} 
+
+
+
+/* Project filter buttons only */
+
+.btn-primary {
+    color: #fff;
+    background-color: #611620;
+}
+
+.btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus {
+    background-color: #962232 !important;
+}
+
+.btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active {
+    background-color: #BD273B !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #1E9ED9;
+  }
+
+/* Blog widget */
+
+.see-all {
+    text-transform: capitalize;
+}
+
+/* Customising the 'Page' layout */
+
+.col-12.col-xl-2 {
+    padding-left: 5rem;
+}
+
+ul.skills-list {
+    column-count: 2; 
+    column-gap: 1%;
+    padding-bottom: 1%;
+}
+
+blockquote {
+    color: #514f4f;
+}
+
+.quote blockquote {
+  margin: 1em;
+}
+
+figure figcaption {
+    text-align: left;
+}
+
+.quotation {
+  margin: 0;
+  background: #eee;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.article-style img, .article-style video {
+    margin-left: 0;
+}
+
+.referencing-style {
+    padding-left: 1.5em;
+    text-indent:-1.5em;
+}
+
+/* Blog post styles */
+
+.article-title a:hover {
+    color: #9D2535;
+}
+
+a.summary-link, a:hover, a:focus {
+    text-decoration: none;
+    color: #0b2a39;
+    outline: none;
+}
+
+.web-img {
+    max-width: 400px;
+}
+
+
+/* Accessible contrast colour for related area at the bottom of post */
+
+.post-nav-item .meta-nav {
+   color: rgb(54, 54, 54); 
+}
+
+/* Image Gallery styling */
+
+.gallery {
+    padding-bottom: 1rem;
+}
+
+.gallery a[data-fancybox] img {
+    height: 150px;
+    margin: 0 0 0 5px;
+}
+
+.fancybox-caption {
+    text-align: left;
+}
+
+/* Text added below gallery images to provide accessible descriptions */
+
+.gallery-custom-caption {
+    font-size: 0.76rem;
+}
+
+.gallery-custom-list {
+    font-size: 0.76rem;
+    list-style-type: '- ';
+}
+
+/* List items with adjusted margin for visual read */
+.gallery-custom-list-statement {
+    margin-left: -40px;
+}
+
+
+/* Footer target fix */
+.page-footer {
+    height: 120%;
+}
