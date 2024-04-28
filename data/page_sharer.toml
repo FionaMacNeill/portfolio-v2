@@ -1,21 +1,13 @@
 # Page Sharer
-# Documentation: https://docs.hugoblox.com/hugo-tutorials/page-sharer/
+# Documentation: https://docs.hugoblox.com/reference/page-sharer/
 
 [[buttons]]
-  id = "twitter"
+  id = "x"
   url = "https://twitter.com/intent/tweet?url={url}&text={title}"
-  title = "Twitter"
-  icon_pack = "fab"
-  icon = "twitter"
-  enable = true
-
-[[buttons]]
-  id = "facebook"
-  url = "https://www.facebook.com/sharer.php?u={url}&t={title}"
-  title = "Facebook"
-  icon_pack = "fab"
-  icon = "facebook"
-  enable = true
+  title = "x-twitter"
+  icon_pack = "custom"
+  icon = "x-twitter"
+  enable = false
 
 [[buttons]]
   id = "email"
@@ -40,43 +32,3 @@
   icon_pack = "fab"
   icon = "whatsapp"
   enable = true
-
-[[buttons]]
-  id = "weibo"
-  url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
-  title = "Weibo"
-  icon_pack = "fab"
-  icon = "weibo"
-  enable = true
-
-[[buttons]]
-  id = "reddit"
-  url = "https://reddit.com/submit?url={url}&title={title}"
-  title = "Reddit"
-  icon_pack = "fab"
-  icon = "reddit-alien"
-  enable = false
-
-[[buttons]]
-  id = "pinterest"
-  url = "https://pinterest.com/pin/create/link/?url={url}&description={title}"
-  title = "Pinterest"
-  icon_pack = "fab"
-  icon = "pinterest"
-  enable = false
-
-[[buttons]]
-  id = "xing"
-  url = "https://www.xing.com/spi/shares/new?url={url}&title={title}"
-  title = "Xing"
-  icon_pack = "fab"
-  icon = "xing"
-  enable = false
-
-[[buttons]]
-  id = "tumblr"
-  url = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}"
-  title = "Tumblr"
-  icon_pack = "fab"
-  icon = "tumblr"
-  enable = false

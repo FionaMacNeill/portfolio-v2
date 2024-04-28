@@ -19,8 +19,6 @@ tags:
   - "ux"
 coverImage: "JTBD_demo_image-1rd4pz7.png"
 
-type: "book"
-
 ---
 
 ## Why am I here (as in you, at this blog, and reading this now)?

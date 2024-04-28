@@ -7,7 +7,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #9D2535;
+    color: #228681;
     text-decoration: underline;
 }
 
@@ -28,10 +28,10 @@ a#skipnav {
   width: 10em;
   margin-bottom: 5px;
   border-radius: 0 0 5px 5px;
-  background: #611620;
+  background: #289faf;
   color: #fff;
   text-align: center;
-}
+} 
 
 /*ID added to define h1 style in header*/
 
@@ -51,7 +51,7 @@ a#skipnav {
 
 .navbar .navbar-nav .nav-link.active {
     font-weight: normal !important;
-    color: #611620 !important;
+    color: #1B688C !important;
     text-decoration: underline;
 }
 
@@ -60,9 +60,6 @@ a#skipnav {
     margin: .2rem;
 }
 
-.js-search.nav-link {
-    color: #1B688C !important;
-  }
 
 /* Typography styles */
 
@@ -142,20 +139,20 @@ a#skipnav {
 /* Project filter buttons only */
 
 .btn-primary {
-    color: #fff;
-    background-color: #611620;
+    color: #000;
+    background-color: #39b4b4;
 }
 
 .btn-toolbar .btn.btn-primary:hover, .btn-toolbar .btn.btn-primary:focus {
-    background-color: #962232 !important;
+    background-color: #309999 !important;
 }
 
 .btn-toolbar .btn.btn-primary:active, .btn-toolbar .btn.btn-primary.active {
-    background-color: #BD273B !important;
+    background-color: #3d7cda !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem #1E9ED9;
+    box-shadow: none;
   }
 
 /* Blog widget */
@@ -196,8 +193,8 @@ figure figcaption {
 }
 
 .article-style img, .article-style video {
-    margin-left: 0;
-}
+    margin-left: 0; 
+} 
 
 .referencing-style {
     padding-left: 1.5em;
@@ -210,9 +207,10 @@ figure figcaption {
     color: #9D2535;
 }
 
-a.summary-link, a:hover, a:focus {
+
+.dark a.summary-link, a:hover, a:focus {
     text-decoration: none;
-    color: #0b2a39;
+    color: #FFF;
     outline: none;
 }
 

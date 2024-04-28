@@ -3,7 +3,7 @@
 title: Fiona MacNeill
 
 # Name pronunciation (optional)
-name_pronunciation: Fe-oh-na Mac-Neell
+# name_pronunciation: Fe-oh-na Mac-Neell
 
 # Full name (for SEO)
 first_name: Fiona
@@ -17,32 +17,26 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Learning Consultant & UX Designer
-
-# Organizations/Affiliations to show in About widget
-# organizations:
-#  - name: Stanford University
-#    url: https://www.stanford.edu/
+role: Learning Consultant & <br>UX Researcher
 
 # Short bio (displayed in user profile at end of posts)
 bio: Passionate about creating inclusive and accessible experiences, tools, and services for learning and doing.
 
 # Interests to show in About widget
-interests:
-- User Research
-- User Experience Design
-- Accessibility
-- Technology Integration
+#interests:
+#- User Research and UX Design
+#- Data Analysis and Visualisation
+#- Technology Integration
 
 # Education to show in About widget
-education:
-  courses:
-    - course: MSc User Experience Design
-      institution: University of Brighton
-      year: 2018
-    - course: BA (Hons) Fine Art
-      institution: Kent Intitute of Art and Design (University of Kent)
-      year: 2005
+#education:
+#  courses:
+#    - course: MSc User Experience Design
+#      institution: University of Brighton
+#      year: 2018
+#    - course: BA (Hons) Fine Art
+#      institution: Kent Intitute of Art and Design (University of Kent)
+#      year: 2005
 
 
 # Skills
@@ -57,10 +51,10 @@ skills:
         icon_pack: fas
       - name: Data Analytics and Visualisation
         description: ''
-        percent: 80
+        percent: 90
         icon: chart-line
         icon_pack: fas
-      - name: R
+      - name: R and currently learning Python
         description: ''
         percent: 60
         icon: rebel
@@ -120,6 +114,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a habitual problem solver and a resolute defender of accessibility. I want to make human-computer interaction better for everybody, whether those interactions are in the pursuit of learning or doing.
+I am a habitual problem solver and a resolute defender of accessibility. I make everyday interactions better, whether in the pursuit of learning or doing.
 
-I enjoy unpicking complex problems and collaborating with the people who want to solve them.
+I enjoy immersing myself in complexity and collaborating with people who want to discover more to reach clarity and make impactful change.
