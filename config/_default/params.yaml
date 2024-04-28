@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Fiona MacNeill. This work is licensed under {license}<br><div id="wcb" class="carbonbadge"></div><script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script><br>'
+    notice: '© {year} Fiona MacNeill. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
