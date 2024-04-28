@@ -116,4 +116,4 @@ highlight_name: true
 ---
 I am a habitual problem solver and a resolute defender of accessibility. I make everyday interactions better, whether in the pursuit of learning or doing.
 
-I enjoy immersing myself in complexity and collaborating with people who want to discover more to reach clarity and make impactful change.
+I enjoy immersing myself in complexity and collaborating with people who want to reach clarity by discovering more and making impactful changes.

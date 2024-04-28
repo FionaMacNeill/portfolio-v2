@@ -29,8 +29,8 @@ image:
 
 links: 
 url_code: ''
-url_pdf: '/uploads/UXCamp2024_share.pdf'
-url_slides: ''
+url_pdf: ''
+url_slides: '/uploads/UXCamp2024_share.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -54,4 +54,4 @@ Project pages will be added for each of the methods shown over the coming weeks.
 #### Literature review
 - Starter template for creating a Microsoft List from an Excel sheet: [ResearchList_Starter.xltx](/uploads/templates/ResearchList_Starter.xltx)
 - Template with the 'CONCATENATE' formula for creating formatted references based on a table in Excel: [ResearchList_ConcatenateTemplate.xltx](/uploads/templates/ResearchList_ConcatenateTemplate.xltx) 
-- Template for formatting the references in Microsoft Word: [WordFormatTemplate.dotx](uploads/templates/WordFormatTemplate.dotx)
+- Template for formatting the references in Microsoft Word: [WordFormatTemplate.dotx](/uploads/templates/WordFormatTemplate.dotx)
