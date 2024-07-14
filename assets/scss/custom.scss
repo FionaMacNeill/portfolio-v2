@@ -33,6 +33,7 @@ a#skipnav {
   text-align: center;
 } 
 
+
 /*ID added to define h1 style in header*/
 
 #navbar-header {
@@ -61,7 +62,23 @@ a#skipnav {
 }
 
 
-/* Typography styles */
+/* Typography styles */ 
+
+/* Page subtitle */ 
+
+.dark .page-subtitle {
+    color: rgba(255, 255, 255, 0.72);
+  } 
+
+.dark .article-metadata {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+/* Portrait Title */ 
+
+.dark .portrait-title h3 {
+    color: rgba(255, 255, 255, 0.72);
+  }
 
 /* h2 style class - replacing the h1 class */
 
@@ -134,6 +151,19 @@ a#skipnav {
     text-decoration:underline;
 } 
 
+/* Blockquote */ 
+
+.light blockquote {
+    color: #333;
+} 
+
+.dark blockquote {
+    color: #c0bfbf;
+}
+
+.quote blockquote {
+  margin: 1em;
+}
 
 
 /* Project filter buttons only */
@@ -171,14 +201,6 @@ ul.skills-list {
     column-count: 2; 
     column-gap: 1%;
     padding-bottom: 1%;
-}
-
-blockquote {
-    color: #514f4f;
-}
-
-.quote blockquote {
-  margin: 1em;
 }
 
 figure figcaption {
@@ -280,4 +302,4 @@ figure figcaption {
 
 .dark #wcb_2 {
     color: #FFF;
-}
+} 
