@@ -92,6 +92,12 @@ a#skipnav {
     font-weight: 700;
     margin-top: 1rem;
     font-size: 1rem;
+} 
+
+/* fixing the figure text colour in the dark theme */ 
+
+figure.quotation {
+  color: black;
 }
 
 /* Line 75 of about.html custom heading style for h2 */
